@@ -1,0 +1,33 @@
+{
+  "name": "goit-js-hw-11-timer",
+  "version": "1.0.0",
+  "description": "Таймер обратного отсчета\r Создай плагин настраиваемого таймера, который ведет обратный отсчет до предварительно определенной даты. Такой плагин может использоваться в блогах и интернет-магазинах, страницах регистрации событий, во время технического обслуживания и т. д.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-11-timer/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galka-travinskaya/goit-js-hw-11-timer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galka-travinskaya/goit-js-hw-11-timer/issues"
+  },
+  "homepage": "https://github.com/galka-travinskaya/goit-js-hw-11-timer#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  }
+}
